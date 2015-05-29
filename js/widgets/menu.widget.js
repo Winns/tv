@@ -30,7 +30,7 @@ app.widget.menu = new (function() {
 			(function handleMultiButton() {
 				var str = Object.keys( profileData.multi ).join('/');
 
-				self.el.$btnMulti.attr( 'href', '/#multi/' + str );
+				self.el.$btnMulti.attr( 'href', '/tv/#multi/' + str );
 			})();
 		});
 	};
